@@ -1,34 +1,28 @@
-// Program to reverse digits of a number
+// Program to reverse the digits of a number
 
-// Include the required header files
+// Required headers
 #include <stdio.h>
-#include <stdlib.h>
 
 // Execution starts here
 int main()
 {
-    // Var to store the integer
-    char intstore[11];
+    // Vars
+    int num, rev = 0, remainder;
 
-    // Get input from the user
-    // {
-    printf("Enter an integer : ");
-    scanf("%s", intstore);
-    // }
+    // Get the input
+    printf("Enter a number to be reversed : ");
+    scanf("%d", &num);
 
-    // Print the number in reverse order
-    for(int i = sizeof(intstore); i >= 0; i--)
+    // Reverse the number
+    while (num != 0)
     {
-        if(intstore[0] == '-' && i >= sizeof(intstore))
-        {
-            printf("-");
-        }
-        else if(intstore[i] == '-')
-        {
-            continue;
-        }
-        printf("%c", intstore[i]);
+        remainder = num % 10;
+        num /= 10;
+        rev = (rev * 10) + remainder;
     }
+
+    // Print output
+    printf("The reverse is : %d\n", rev);
 
     // Return zero to show success
     return 0;
