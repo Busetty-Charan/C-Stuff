@@ -1,19 +1,6 @@
 // Program to insert 10 elements into an array and change 5th element in the array
 
-
 #include <stdio.h>
-
-void print_array(const int *array)
-{
-    printf("[ ");
-
-    for (int i = 0; i < 10; i++)
-    {
-        printf("%d, ", *(array + i));
-    }
-
-    printf("\b\b ]\n");
-}
 
 int main (int argc, char *argv[])
 {
@@ -27,11 +14,25 @@ int main (int argc, char *argv[])
     }
 
     printf("The array was : \n");
-    print_array(array);
+    printf("[ ");
+
+    for (int i = 0; i < 10; i++)
+    {
+        printf("%d, ", *(array + i));
+    }
+
+    printf("\b\b ]\n");
     printf("Enter a new number to replace at 5th position : ");
     scanf(" %d", array + 4);
     printf("The new array is : \n");
-    print_array(array);
+    printf("[ ");
+
+    for (int i = 0; i < 10; i++)
+    {
+        printf("%d, ", *(array + i));
+    }
+
+    printf("\b\b ]\n");
     printf("\n");
 
     return 0;
