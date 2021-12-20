@@ -1,4 +1,4 @@
-// Program to find an element in an array using Binary Search using recursion
+// Program to find an element in an array using Binary Search using a function
 
 #include <stdio.h>
 
