@@ -1,7 +1,6 @@
 // Write a C program to print out the divisors of a number `n`
 // To instantly test this code, copy it and go over to https://replit.com/languages/c
 
-
 // Include the input and output helper header file
 #include <stdio.h>
 

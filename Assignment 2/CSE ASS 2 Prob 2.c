@@ -1,7 +1,6 @@
 // Write a C program to print out `n` fibonacci terms
 // To instantly test this code, copy it and go over to https://replit.com/languages/c
 
-
 // Include the input and output helper header file
 #include <stdio.h>
 
@@ -24,7 +23,7 @@ int main()
 
     printf("Fibonacci Series :\n%d %d", t1, t2);
     // }
-    
+
     // Print out the remaining terms
     while (num - 2 > 0)
     {

@@ -1,7 +1,6 @@
 // Write a C program to calculate sum of `n` number got from the user
 // To instantly test this code, copy it and go over to https://replit.com/languages/c
 
-
 // Include the input and output helper header file
 #include <stdio.h>
 

@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
     int next;
 
@@ -33,7 +33,7 @@ int main (int argc, char *argv[])
         }
 
         printf("The on-road price of this car is : %d\n", (car_price + road_tax + gst) - (discount * (car_price / 100)));
-        
+
         printf("Enter '1' if you want to continue : ");
         scanf("%d", &next);
 
@@ -41,7 +41,7 @@ int main (int argc, char *argv[])
         {
             next = 0;
         }
-    }while (next);
-    
+    } while (next);
+
     return 0;
 }

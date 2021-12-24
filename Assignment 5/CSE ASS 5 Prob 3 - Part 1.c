@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int count_element (const int *to_be_checked, int size_of_arr, const int *to_check)
+int count_element(const int *to_be_checked, int size_of_arr, const int *to_check)
 {
     int count = 0;
 
@@ -17,22 +17,22 @@ int count_element (const int *to_be_checked, int size_of_arr, const int *to_chec
     return count;
 }
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
     int n, check;
 
     printf("Enter the number of elements : ");
     scanf(" %d", &n);
-    
+
     int array[n];
 
     printf("Enter the elements one by one : ");
-    
+
     for (int i = 0; i < n; i++)
     {
         scanf(" %d", array + i);
     }
-    
+
     printf("Enter the element to be counted : ");
     scanf(" %d", &check);
 

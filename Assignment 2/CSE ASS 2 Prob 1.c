@@ -1,7 +1,6 @@
 // Write a C program to calculate the factorial
 // To instantly test this code, copy it and go over to https://replit.com/languages/c
 
-
 // Include the input and output helper header file
 #include <stdio.h>
 
@@ -32,7 +31,7 @@ int main()
             num--;
         }
     }
-    
+
     printf("The factorial was : %d", fact);
     // }
 

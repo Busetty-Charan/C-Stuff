@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
     int last, checker, middle = -1, first = 0;
 
@@ -16,7 +16,7 @@ int main (int argc, char *argv[])
         printf("Enter element %d : ", i + 1);
         scanf(" %d", bins_arr + i);
     }
-    
+
     printf("Enter what element you would like to check for : ");
     scanf(" %d", &checker);
 

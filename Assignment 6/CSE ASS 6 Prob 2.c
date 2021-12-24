@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int binary_search (int bins_arr[], int first, int last, int checker)
+int binary_search(int bins_arr[], int first, int last, int checker)
 {
     while (last >= first)
     {
@@ -27,7 +27,7 @@ int binary_search (int bins_arr[], int first, int last, int checker)
     return -1;
 }
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
     int n, checker, bins_result;
 
@@ -41,7 +41,7 @@ int main (int argc, char *argv[])
         printf("Enter element %d : ", i + 1);
         scanf(" %d", bins_arr + i);
     }
-    
+
     printf("Enter what element you would like to check for : ");
     scanf(" %d", &checker);
 
