@@ -8,6 +8,7 @@ all: p1 p2 p3 p4 p5
 clean:
 
 	rm -f p1.exe p2.exe p3.exe p4.exe p5.exe p6.exe
+	rm -f p1 p2 p3 p4 p5
 
 p1: CSE\ ASS\ 7\ Prob\ 1.c
 
