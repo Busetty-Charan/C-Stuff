@@ -52,10 +52,19 @@ int main(int argc, char const *argv[])
         }
     }
 
-    for (int i = 0; i < n; i++)
+    printf("[ ");
+
+    for (int i = n - 1; i >= 0; i--)
     {
-        printf("Value -> %d : Count -> %d\n", dict_arr[i].value, dict_arr[i].count);
+        if (dict_arr[i].count == -1)
+        {
+            continue;
+        }
+
+        printf("%d, ", dict_arr[i].value);
     }
+
+    printf("\b\b ]\n");
 
     return 0;
 }
